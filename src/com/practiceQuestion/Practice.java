@@ -4,4 +4,7 @@ package com.practiceQuestion;
  */
 
 public class Practice {
+public static void  main(String []args){
+    System.out.println("Hello,welcome to the java world");
+}
 }
