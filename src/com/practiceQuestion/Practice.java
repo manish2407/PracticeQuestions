@@ -26,7 +26,7 @@ public static void  main(String []args){
     System.out.println("value of l is :"+l);
     System.out.println("Area is:"+area);
      */
-
+    /* 4.use of escape sequences
     System.out.println("'welcome'");
     System.out.println("\"welcome\"");
     System.out.println("wel\ncome");
@@ -35,5 +35,13 @@ public static void  main(String []args){
     System.out.println("'wel\fcome'");
     System.out.println("'wel\tcome'");
     System.out.println("'wel\bcome'");
+     */
+    int a =10;
+    if (a==10){
+        int y=20;
+        System.out.println(a*y);
+    }
+    System.out.println(y);
+    System.out.println(a);
 }
 }
