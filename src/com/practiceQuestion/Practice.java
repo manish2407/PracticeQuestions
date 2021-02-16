@@ -41,7 +41,7 @@ public static void  main(String []args){
         int y=20;
         System.out.println(a*y);
     }
-    System.out.println(y);
+    //System.out.println(y); this will give error.
     System.out.println(a);
 }
 }
