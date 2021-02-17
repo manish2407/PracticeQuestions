@@ -73,6 +73,16 @@ byte b;
     months[2] = 31;
     System.out.println("January has "+months[0]+" days");
      */
-
+    /* 9.implementation of 2-D array
+    int twoDArray[][] = new int[2][3];
+    int i,j;
+    for (i=0;i<2;i++){
+        for(j=0;j<3;j++){
+            twoDArray[i][j]=0;
+            System.out.print(twoDArray[i][j]);
+        }
+        System.out.println();
+    }
+     */
 }
 }
