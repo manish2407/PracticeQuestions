@@ -66,6 +66,11 @@ byte b;
     double d = (b + c + s + i + l + f);
     System.out.println(d);
      */
+    int months[] = new int[12];
+    months[0] = 31;
+    months[1] =  28;
+    months[2] = 31;
+    System.out.println("January has "+months[0]+" days");
 
 }
 }
