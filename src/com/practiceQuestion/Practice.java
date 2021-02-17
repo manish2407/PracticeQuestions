@@ -45,6 +45,7 @@ public static void  main(String []args){
     //System.out.println(y); this will give error.
     System.out.println(a);
      */
+    /* 6.automatic type conversion and type-casting
 int a = 257;
 double f =  255.123;
 byte b;
@@ -54,5 +55,17 @@ byte b;
     System.out.println("conversion of float to int");
     a = (int)f;
     System.out.println(a);
+     */
+    /* 7. type conversion to double
+    byte b = 50;
+    char c = 'a';
+    short s = 800;
+    int i = 12345;
+    long l = 12345678;
+    double f = 123.3;
+    double d = (b + c + s + i + l + f);
+    System.out.println(d);
+     */
+
 }
 }
