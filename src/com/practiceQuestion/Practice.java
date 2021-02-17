@@ -66,11 +66,13 @@ byte b;
     double d = (b + c + s + i + l + f);
     System.out.println(d);
      */
+    /* 8. Array declaration and initialization
     int months[] = new int[12];
     months[0] = 31;
     months[1] =  28;
     months[2] = 31;
     System.out.println("January has "+months[0]+" days");
+     */
 
 }
 }
