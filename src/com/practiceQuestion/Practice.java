@@ -36,12 +36,23 @@ public static void  main(String []args){
     System.out.println("'wel\tcome'");
     System.out.println("'wel\bcome'");
      */
+    /*5.use of scope of varable
     int a =10;
     if (a==10){
         int y=20;
         System.out.println(a*y);
     }
     //System.out.println(y); this will give error.
+    System.out.println(a);
+     */
+int a = 257;
+double f =  255.123;
+byte b;
+    System.out.println("conversion of int to byte");
+    b = (byte)a;
+    System.out.println(b);
+    System.out.println("conversion of float to int");
+    a = (int)f;
     System.out.println(a);
 }
 }
