@@ -1,4 +1,7 @@
 package com.practiceQuestion;
+
+import java.sql.SQLOutput;
+
 /**
  this project is to implement basic as well advance questions in java
  */
@@ -83,6 +86,20 @@ byte b;
         }
         System.out.println();
     }
+     */
+    /* implementation of arithmatic operator
+    int a = 100;
+    double b = 1000;
+    System.out.println(a+a);
+    System.out.println(a-a);
+    System.out.println(a*a);
+    System.out.println(a/a);
+    System.out.println(a%a);
+    System.out.println(b+b);
+    System.out.println(b-b);
+    System.out.println(b*b);
+    System.out.println(b/b);
+    System.out.println(b%b);
      */
 }
 }
