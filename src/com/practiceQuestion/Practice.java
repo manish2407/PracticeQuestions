@@ -87,7 +87,7 @@ byte b;
         System.out.println();
     }
      */
-    /* implementation of arithmatic operator
+    /* 10.implementation of arithmatic operator
     int a = 100;
     double b = 1000;
     System.out.println(a+a);
@@ -100,6 +100,14 @@ byte b;
     System.out.println(b*b);
     System.out.println(b/b);
     System.out.println(b%b);
+     */
+    /* 11.use of bitwise Operators
+    int a = 10;
+    int b = 5;
+    System.out.println("a | b is:" + (a | b));
+    System.out.println("a & b is:" + (a & b));
+    System.out.println("a ^ b is:" + (a ^ b));
+    System.out.println("~a is:" + (~a) );
      */
 }
 }
