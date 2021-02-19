@@ -109,6 +109,7 @@ byte b;
     System.out.println("a ^ b is:" + (a ^ b));
     System.out.println("~a is:" + (~a) );
      */
+    /* 12. implementation of bitwise left shift, right shift, unsigned right shift operator
     int val1 = 25;
     int val2;
     val2 = val1 <<2;
@@ -117,6 +118,25 @@ byte b;
     System.out.println("value after right shift is :"+ val2);
     val2 = val1 >>> 2;
     System.out.println("value after unsigned right shift is :"+ val2);
-
+     */
+    //13. You can implement relational, assignment and logical operators from your own end.
+    /* 14. implementation of ternary operator in java
+    int a = 10,b=10;
+    int c = a==b?5:3;
+    System.out.println("value of c is : "+c);
+     */
+    //15. you can implement selection statements like if, if-else-if, nested if by your own
+    /* 16. use of switch case selection statements
+    int a = 10;
+    switch (a){
+        case 5:
+            System.out.println("value not matched");
+        case 10:
+            System.out.println("value matched");
+            break;
+        default:
+            System.out.println("no matching");
+    }
+     */
 }
 }
