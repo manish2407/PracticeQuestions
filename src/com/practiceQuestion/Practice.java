@@ -1,9 +1,9 @@
 package com.practiceQuestion;
 
-import java.sql.SQLOutput;
+
 
 /**
- this project is to implement basic as well advance questions in java
+ this project is to implement basic as well advance questions in java -- Manish Sharma
  */
 
 public class Practice {
@@ -101,7 +101,7 @@ byte b;
     System.out.println(b/b);
     System.out.println(b%b);
      */
-    /* 11.use of bitwise Operators
+    /* 11.use of bitwise Operators |,&,^
     int a = 10;
     int b = 5;
     System.out.println("a | b is:" + (a | b));
@@ -109,5 +109,14 @@ byte b;
     System.out.println("a ^ b is:" + (a ^ b));
     System.out.println("~a is:" + (~a) );
      */
+    int val1 = 25;
+    int val2;
+    val2 = val1 <<2;
+    System.out.println("value after left shift is :"+ val2);
+    val2 = val1 >> 2;
+    System.out.println("value after right shift is :"+ val2);
+    val2 = val1 >>> 2;
+    System.out.println("value after unsigned right shift is :"+ val2);
+
 }
 }
