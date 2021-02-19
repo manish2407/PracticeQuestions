@@ -126,7 +126,8 @@ byte b;
     System.out.println("value of c is : "+c);
      */
     //15. you can implement selection statements like if, if-else-if, nested if by your own
-    /* 16. use of switch case selection statements
+    /* 16. use of switch case selection statements -----
+    *****we can use byte ,short,  int , char, string as expression and duplicate value should be in case.*****
     int a = 10;
     switch (a){
         case 5:
@@ -136,6 +137,13 @@ byte b;
             break;
         default:
             System.out.println("no matching");
+    }
+     */
+    /* 17. while loop
+    int a = 10;
+    while(a > 0){
+        System.out.println("tick tick "+ a);
+        a--;
     }
      */
 }
