@@ -146,5 +146,9 @@ byte b;
         a--;
     }
      */
+    int a = 20, b=30;
+    while (++a < --b){
+    }
+    System.out.println("mid point is "+a);
 }
 }
