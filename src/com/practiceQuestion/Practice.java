@@ -196,6 +196,7 @@ byte b;
     }
     System.out.println("sum of array is :" + sum);
      */
+    /* 23.implementation of for each loop in 2-D array
     int num[][] = new int[3][3];
     int sum = 0;
     for(int i = 0; i<=2;i++){
@@ -209,5 +210,18 @@ byte b;
         }
     }
     System.out.println("total sum is :" + sum);
+     */
+    /* 24. use of jump statement like break and continue
+    int a = 10;
+    for (int i = 0;i<10;i++){
+        if(i==5){
+            continue;
+        }
+        System.out.println("hello bunny " + i);
+        if (i==7){
+            break;
+        }
+    }
+     */
 }
 }
