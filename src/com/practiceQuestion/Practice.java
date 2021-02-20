@@ -182,9 +182,17 @@ byte b;
              System.out.println("do{\nstatements\n}while(conditions)");
              break;
     }*/
+    /* 21.Simple for loop
     int a = 5;
     for(int i=0;i<5;i++ ){
         System.out.println("hello "+i);
     }
+     */
+    int a[]={1,2,3,4,5,6,7,8,9,};
+    int sum = 0;
+    for(int x: a){
+        sum +=x;
+    }
+    System.out.println("sum of array is :"+ sum);
 }
 }
