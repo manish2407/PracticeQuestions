@@ -4,7 +4,7 @@ package com.practiceQuestion;
  this project is to implement basic as well advance questions in java -- Manish Sharma
  */
 
-public class Practice {
+class Practice {
 public static void  main(String []args){
     /* 1.Basic program
     System.out.println("Hello,welcome to the java world");
@@ -223,5 +223,7 @@ byte b;
         }
     }
      */
+
+
 }
 }
