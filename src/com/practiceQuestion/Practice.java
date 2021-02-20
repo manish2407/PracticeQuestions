@@ -188,11 +188,26 @@ byte b;
         System.out.println("hello "+i);
     }
      */
+    /* 22. implementation of for each loop in java
     int a[]={1,2,3,4,5,6,7,8,9,};
     int sum = 0;
     for(int x: a){
         sum +=x;
     }
-    System.out.println("sum of array is :"+ sum);
+    System.out.println("sum of array is :" + sum);
+     */
+    int num[][] = new int[3][3];
+    int sum = 0;
+    for(int i = 0; i<=2;i++){
+        for(int j = 0;j<=2;j++){
+            num[i][j]= i+j;
+        }
+    }
+    for (int[] x: num){
+        for (int y : x) {
+            sum += y;
+        }
+    }
+    System.out.println("total sum is :" + sum);
 }
 }
