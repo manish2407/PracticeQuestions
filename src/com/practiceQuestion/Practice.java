@@ -1,8 +1,5 @@
 package com.practiceQuestion;
 
-
-import java.util.Scanner;
-
 /**
  this project is to implement basic as well advance questions in java -- Manish Sharma
  */
@@ -153,6 +150,7 @@ byte b;
     }
     System.out.println("mid point is "+a);
      */
+    /* 19. menu driven program using do while loop
     int choice;
     Scanner sc = new Scanner(System.in);
     do{
@@ -183,6 +181,10 @@ byte b;
         case 5:
              System.out.println("do{\nstatements\n}while(conditions)");
              break;
+    }*/
+    int a = 5;
+    for(int i=0;i<5;i++ ){
+        System.out.println("hello "+i);
     }
 }
 }
