@@ -1,6 +1,7 @@
 package com.practiceQuestion;
 
 
+import java.util.Scanner;
 
 /**
  this project is to implement basic as well advance questions in java -- Manish Sharma
@@ -146,9 +147,42 @@ byte b;
         a--;
     }
      */
+    /* 18.find the midpoint using while loop
     int a = 20, b=30;
     while (++a < --b){
     }
     System.out.println("mid point is "+a);
+     */
+    int choice;
+    Scanner sc = new Scanner(System.in);
+    do{
+        System.out.println("we will help on");
+        System.out.println("1. if");
+        System.out.println("2. if else");
+        System.out.println("3. switch-case");
+        System.out.println("4. while");
+        System.out.println("5. do-while");
+        System.out.println("please choose one from this menu");
+        choice = sc.nextInt();
+    }
+    while(choice < 1 || choice > 6);
+    System.out.println("\n");
+    switch (choice){
+        case 1:
+            System.out.println("if(condition){\nstatement;\n}");
+            break;
+        case 2:
+            System.out.println("if(condition){\nstatement;\n}\nelse{statements}");
+            break;
+        case 3:
+            System.out.println("switch(expression){\ncase constant:\nstatement;\nbreak;}");
+            break;
+        case 4:
+            System.out.println(("while(condition){\nstatements;\n}"));
+            break;
+        case 5:
+             System.out.println("do{\nstatements\n}while(conditions)");
+             break;
+    }
 }
 }
