@@ -22,14 +22,17 @@ public class BoxDemo {
          */
         Box my = new Box();
         Box my1 = new Box();
+        double vol;
         my.l = 10;
         my.b = 10;
         my.h = 10;
         my1.l = 20;
         my1.b = 20;
         my1.h = 20;
-        my.volume();
-        my1.volume();
+        vol = my.volume();
+        System.out.println("Volume of my object is"+vol);
+        vol = my1.volume();
+        System.out.println("Volume of my1 object is"+vol);
 
     }
 }
