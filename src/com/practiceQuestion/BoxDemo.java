@@ -36,7 +36,7 @@ public class BoxDemo {
         System.out.println("Volume of my1 object is"+vol);
 
          */
-        /*Use of method with return and parameters
+        /*3.Use of method with return and parameters
         Box my = new Box();
         Box my1 = new Box();
         double vol;
@@ -46,7 +46,13 @@ public class BoxDemo {
         System.out.println("Volume of my object is"+vol);
         System.out.println("Volume of my1 object is"+vol1);
          */
+        /*4.use of Constructor
         Box my = new Box();
+        double vol;
+        vol = my.volume();
+        System.out.println("volume is :"+vol);
+         */
+        Box my = new Box(10,10,10);
         double vol;
         vol = my.volume();
         System.out.println("volume is :"+vol);

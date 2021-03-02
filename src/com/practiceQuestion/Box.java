@@ -32,10 +32,20 @@ double volume(){
         return length*breadth*height;
     }
      */
+    /*4. use of constructor
     Box(){
         length = 10;
         breadth = 10;
         height = 10;
+    }
+    double volume(){
+        return length*breadth*height;
+    }
+     */
+    Box(double l,double b,double h){
+        length = l;
+        breadth = b;
+        height = h;
     }
     double volume(){
         return length*breadth*height;
