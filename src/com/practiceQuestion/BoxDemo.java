@@ -1,11 +1,9 @@
 package com.practiceQuestion;
 
 public class BoxDemo {
-    int length;
-    int breadth;
-    int height;
 
     public static void main(String[] args) {
+        /* 1.Use of class Concept
         Box my = new Box();
         BoxDemo my1 = new BoxDemo();
         double volume1;
@@ -20,5 +18,18 @@ public class BoxDemo {
         volume2 = my1.length*my1.breadth*my1.height;
         System.out.println("volume of Box class is :" + volume1);
         System.out.println("volume of BoxDemo class is :" + volume2);
+
+         */
+        Box my = new Box();
+        Box my1 = new Box();
+        my.l = 10;
+        my.b = 10;
+        my.h = 10;
+        my1.l = 20;
+        my1.b = 20;
+        my1.h = 20;
+        my.volume();
+        my1.volume();
+
     }
 }
