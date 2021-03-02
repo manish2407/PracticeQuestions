@@ -58,9 +58,11 @@ public class BoxDemo {
         vol = my.volume();
         System.out.println("volume is :"+vol);
          */
+        /*6.Instance variable hiding using constructor
         Box my = new Box(10,10,10);
         double vol;
         vol = my.volume();
         System.out.println("volume is :"+vol);
+         */
     }
 }

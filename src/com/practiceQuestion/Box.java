@@ -52,6 +52,7 @@ double volume(){
         return length*breadth*height;
     }
      */
+/*6.Instance variable hiding using constructor
 Box(double length,double breadth,double height){
     this.length = length;
     this.breadth = breadth;
@@ -60,4 +61,5 @@ Box(double length,double breadth,double height){
     double volume(){
         return length*breadth*height;
     }
+ */
 }
