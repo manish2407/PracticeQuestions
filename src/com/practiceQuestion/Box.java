@@ -2,7 +2,7 @@ package com.practiceQuestion;
 
 
 public class Box {
-    //double l,b,h;
+    double length,breadth,height;
 /*1. use of method without return type
 void volume(){
     System.out.println("Volume is ");
@@ -14,6 +14,7 @@ double volume(){
     return l*b*h;
 }
  */
+    /*3. use of method using return type and parameter
     static int value(int i){
     return i*i*i;
 }
@@ -21,5 +22,12 @@ double volume(){
         int x;
         x = value(5);
         System.out.println("value is"+x);
+    }
+     */
+    double volume(double l,double b,double h){
+        length = l;
+        breadth = b;
+        height = h;
+        return length*breadth*height;
     }
 }

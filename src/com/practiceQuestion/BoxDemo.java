@@ -36,7 +36,13 @@ public class BoxDemo {
         System.out.println("Volume of my1 object is"+vol);
 
          */
-
-
+        Box my = new Box();
+        Box my1 = new Box();
+        double vol;
+        double vol1;
+        vol = my.volume(5,5,5);
+        vol1 = my1.volume(10,10,10);
+        System.out.println("Volume of my object is"+vol);
+        System.out.println("Volume of my1 object is"+vol1);
     }
 }
