@@ -20,6 +20,7 @@ public class BoxDemo {
         System.out.println("volume of BoxDemo class is :" + volume2);
 
          */
+        /*2. use of method using return type
         Box my = new Box();
         Box my1 = new Box();
         double vol;
@@ -33,6 +34,9 @@ public class BoxDemo {
         System.out.println("Volume of my object is"+vol);
         vol = my1.volume();
         System.out.println("Volume of my1 object is"+vol);
+
+         */
+
 
     }
 }
