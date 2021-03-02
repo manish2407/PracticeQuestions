@@ -24,10 +24,20 @@ double volume(){
         System.out.println("value is"+x);
     }
      */
+    /*Use of method with return and parameters
     double volume(double l,double b,double h){
         length = l;
         breadth = b;
         height = h;
+        return length*breadth*height;
+    }
+     */
+    Box(){
+        length = 10;
+        breadth = 10;
+        height = 10;
+    }
+    double volume(){
         return length*breadth*height;
     }
 }
