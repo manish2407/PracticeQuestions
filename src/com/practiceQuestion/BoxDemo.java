@@ -52,6 +52,12 @@ public class BoxDemo {
         vol = my.volume();
         System.out.println("volume is :"+vol);
          */
+        /*5.Use of parameterised constructor
+        Box my = new Box(10,10,10);
+        double vol;
+        vol = my.volume();
+        System.out.println("volume is :"+vol);
+         */
         Box my = new Box(10,10,10);
         double vol;
         vol = my.volume();

@@ -42,11 +42,21 @@ double volume(){
         return length*breadth*height;
     }
      */
+    /*5.Use of parameterised constructor
     Box(double l,double b,double h){
         length = l;
         breadth = b;
         height = h;
     }
+    double volume(){
+        return length*breadth*height;
+    }
+     */
+Box(double length,double breadth,double height){
+    this.length = length;
+    this.breadth = breadth;
+    this.height = height;
+}
     double volume(){
         return length*breadth*height;
     }
