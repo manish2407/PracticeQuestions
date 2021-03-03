@@ -83,9 +83,15 @@ public class BoxDemo {
         vol = my2.volume();
         System.out.println("volume is :"+vol);
          */
+        /*9.Concept of Call by Value
         Box my1 = new Box();
         int i =10,j=20;
         my1.display(i,j);
         System.out.println("value of i and j is "+i +" "+j);
+         */
+        Box my1 = new Box(10,20);
+        System.out.println("ob.a and ob.b before call: "+my1.a + " " + my1.b);
+        my1.manish(my1);
+        System.out.println("ob.a and ob.b after call: " + my1.a + " " + my1.b);
     }
 }

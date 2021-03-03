@@ -95,10 +95,21 @@ Box(double l,double b,double h){
     double volume(){
         return length*breadth*height;
     }
- */void display(int a, int b){
+ */
+/*9.Concept of Call by Value
+void display(int a, int b){
      a = a*2;
      b= b*2;
         System.out.println("value of a and b is "+a +" "+b);
     }
-
+ */
+int a , b;
+Box(int i , int j ){
+    a = i;
+    b = j;
+}
+void manish(Box o){
+    o.a = a*2;
+    o.b = b*2;
+}
 }
