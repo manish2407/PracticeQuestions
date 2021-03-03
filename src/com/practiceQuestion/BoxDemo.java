@@ -62,6 +62,7 @@ public class BoxDemo {
         vol = my.volume();
         System.out.println("volume is :"+vol);
          */
+        /*7.Method Overloading
         Box my1 = new Box();
         double vol;
         my1.display();
@@ -69,5 +70,16 @@ public class BoxDemo {
         my1.display(10,20);
         vol = my1.display(123.3);
         System.out.println("value of vol is "+ vol);
+         */
+        Box my = new Box(10,10,10);
+        Box my1 = new Box();
+        Box my2 = new Box(10);
+        double vol;
+        vol = my.volume();
+        System.out.println("volume is :"+vol);
+        vol = my1.volume();
+        System.out.println("volume is :"+vol);
+        vol = my2.volume();
+        System.out.println("volume is :"+vol);
     }
 }
