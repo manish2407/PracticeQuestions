@@ -71,6 +71,7 @@ public class BoxDemo {
         vol = my1.display(123.3);
         System.out.println("value of vol is "+ vol);
          */
+        /*8.Constructor Overloading
         Box my = new Box(10,10,10);
         Box my1 = new Box();
         Box my2 = new Box(10);
@@ -81,5 +82,10 @@ public class BoxDemo {
         System.out.println("volume is :"+vol);
         vol = my2.volume();
         System.out.println("volume is :"+vol);
+         */
+        Box my1 = new Box();
+        int i =10,j=20;
+        my1.display(i,j);
+        System.out.println("value of i and j is "+i +" "+j);
     }
 }

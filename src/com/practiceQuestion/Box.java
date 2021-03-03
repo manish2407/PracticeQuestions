@@ -2,7 +2,7 @@ package com.practiceQuestion;
 
 
 public class Box {
-    double length,breadth,height;
+    //double length,breadth,height;
 /*1. use of method without return type
 void volume(){
     System.out.println("Volume is ");
@@ -76,6 +76,7 @@ void display(){
     return a * a;
     }
  */
+/*8.Constructor Overloading
 Box(double l,double b,double h){
     length = l;
     breadth = b;
@@ -94,4 +95,10 @@ Box(double l,double b,double h){
     double volume(){
         return length*breadth*height;
     }
+ */void display(int a, int b){
+     a = a*2;
+     b= b*2;
+        System.out.println("value of a and b is "+a +" "+b);
+    }
+
 }
