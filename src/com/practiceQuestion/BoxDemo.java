@@ -18,7 +18,6 @@ public class BoxDemo {
         volume2 = my1.length*my1.breadth*my1.height;
         System.out.println("volume of Box class is :" + volume1);
         System.out.println("volume of BoxDemo class is :" + volume2);
-
          */
         /*2. use of method using return type
         Box my = new Box();
@@ -34,7 +33,6 @@ public class BoxDemo {
         System.out.println("Volume of my object is"+vol);
         vol = my1.volume();
         System.out.println("Volume of my1 object is"+vol);
-
          */
         /*3.Use of method with return and parameters
         Box my = new Box();
@@ -64,5 +62,12 @@ public class BoxDemo {
         vol = my.volume();
         System.out.println("volume is :"+vol);
          */
+        Box my1 = new Box();
+        double vol;
+        my1.display();
+        my1.display(10);
+        my1.display(10,20);
+        vol = my1.display(123.3);
+        System.out.println("value of vol is "+ vol);
     }
 }
