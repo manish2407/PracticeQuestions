@@ -89,9 +89,15 @@ public class BoxDemo {
         my1.display(i,j);
         System.out.println("value of i and j is "+i +" "+j);
          */
+        /*10 Concept of call by reference
         Box my1 = new Box(10,20);
         System.out.println("ob.a and ob.b before call: "+my1.a + " " + my1.b);
         my1.manish(my1);
         System.out.println("ob.a and ob.b after call: " + my1.a + " " + my1.b);
+         */
+        Box my1 = new Box();
+        System.out.println(my1.factorial(5));
+        System.out.println(my1.factorial(10));
+
     }
 }

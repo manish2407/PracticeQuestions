@@ -103,6 +103,7 @@ void display(int a, int b){
         System.out.println("value of a and b is "+a +" "+b);
     }
  */
+/*10.Concept of call by reference
 int a , b;
 Box(int i , int j ){
     a = i;
@@ -111,5 +112,15 @@ Box(int i , int j ){
 void manish(Box o){
     o.a = a*2;
     o.b = b*2;
+}
+ */
+int result;
+int factorial(int a){
+    if(a ==1 || a==0){
+        return 1;
+    }
+
+        result = factorial(a - 1)* a;
+    return result;
 }
 }
