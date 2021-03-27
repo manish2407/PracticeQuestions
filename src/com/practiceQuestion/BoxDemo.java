@@ -1,6 +1,18 @@
 package com.practiceQuestion;
 
 public class BoxDemo {
+    /*13. Use of static keyword
+    static int a=3;
+    static int b;
+    static void method(int x){
+        System.out.println("value of x is :"+x);
+        System.out.println("value of a is :"+a);
+        System.out.println("value of b is :"+b);
+    }
+    static{
+        System.out.println("Static block execution start");
+        b=a*10;
+    }*/
 
     public static void main(String[] args) {
         /* 1.Use of class Concept
@@ -99,11 +111,19 @@ public class BoxDemo {
         Box my1 = new Box();
         System.out.println(my1.factorial(5));
         System.out.println(my1.factorial(10));*/
+        /*12.Use of access Modifier[Public,Private,Protected]
         Box my1 = new Box();
         my1.setC(5);
         System.out.println(my1.a=10);
         System.out.println(my1.b=20);
         System.out.println(my1.getC());
+        */
+        /*13. Use of Static Keyword
+        method(40);
+         */
+
+
+
 
     }
 }

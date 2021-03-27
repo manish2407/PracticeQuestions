@@ -124,6 +124,7 @@ int factorial(int a){
         result = factorial(a - 1)* a;
     return result;
 }*/
+/*Use of access Modifier[Public,Private,Protected]
 int a;
 public int b;
 private int c;
@@ -134,4 +135,5 @@ private int c;
     int getC(){
         return c;
     }
+ */
 }
