@@ -121,6 +121,22 @@ public class BoxDemo {
         /*13. Use of Static Keyword
         method(40);
          */
+        /*int a1[] = new int[10];
+        int a2[] = {3, 5, 7, 1, 8, 99, 44, -10};
+        int a3[] = {4, 3, 2, 1};
+        System.out.println("length of a1 is " + a1.length);
+        System.out.println("length of a2 is " + a2.length);
+        System.out.println("length of a3 is " + a3.length);
+        */
+        /*14. Use of final keyword
+        final int a = 10;
+        int b = 20;
+        System.out.println("value of a is: "+a);
+        System.out.println("value of b is: "+b);
+        a = 5; //gives error
+         */
+
+
 
 
 
