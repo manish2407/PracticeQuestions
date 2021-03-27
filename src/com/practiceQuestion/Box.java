@@ -124,4 +124,14 @@ int factorial(int a){
         result = factorial(a - 1)* a;
     return result;
 }*/
+int a;
+public int b;
+private int c;
+//method to access C
+    void setC(int i){
+        c=i;
+    }
+    int getC(){
+        return c;
+    }
 }

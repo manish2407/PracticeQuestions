@@ -99,6 +99,11 @@ public class BoxDemo {
         Box my1 = new Box();
         System.out.println(my1.factorial(5));
         System.out.println(my1.factorial(10));*/
+        Box my1 = new Box();
+        my1.setC(5);
+        System.out.println(my1.a=10);
+        System.out.println(my1.b=20);
+        System.out.println(my1.getC());
 
     }
 }
