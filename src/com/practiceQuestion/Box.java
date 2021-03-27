@@ -114,6 +114,7 @@ void manish(Box o){
     o.b = b*2;
 }
  */
+/*11. Factorial of number using recursion
 int result;
 int factorial(int a){
     if(a ==1 || a==0){
@@ -122,5 +123,5 @@ int factorial(int a){
 
         result = factorial(a - 1)* a;
     return result;
-}
+}*/
 }

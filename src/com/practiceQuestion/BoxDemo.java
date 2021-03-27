@@ -95,9 +95,10 @@ public class BoxDemo {
         my1.manish(my1);
         System.out.println("ob.a and ob.b after call: " + my1.a + " " + my1.b);
          */
+        /*11. factorial pof number using recursion
         Box my1 = new Box();
         System.out.println(my1.factorial(5));
-        System.out.println(my1.factorial(10));
+        System.out.println(my1.factorial(10));*/
 
     }
 }
