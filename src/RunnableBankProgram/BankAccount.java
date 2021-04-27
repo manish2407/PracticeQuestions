@@ -10,4 +10,10 @@ public class BankAccount {
     {
         balance = balance + amount;
     }
+    public void withdraw(double amount)           // withdrawal function
+    {
+        balance = balance - amount;
+    }
+
+
 }
