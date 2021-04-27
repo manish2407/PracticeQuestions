@@ -14,6 +14,9 @@ public class BankAccount {
     {
         balance = balance - amount;
     }
-
+    public void display()                         // display function
+    {
+        System.out.println("remaining balance is="+ balance);
+    }
 
 }
