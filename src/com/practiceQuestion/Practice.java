@@ -225,6 +225,7 @@ byte b;
         }
     }
      */
+    /*25., To check the number is prime or not
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter no. to check prime or not");
     int n = sc.nextInt();
@@ -239,7 +240,7 @@ byte b;
     }
     else{
         System.out.println("Number is not prime");
-    }
+    }*/
 
 }
 }
