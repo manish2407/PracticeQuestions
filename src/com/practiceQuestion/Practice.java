@@ -1,5 +1,7 @@
 package com.practiceQuestion;
 
+import java.util.Scanner;
+
 /**
  this project is to implement basic as well advance questions in java -- Manish Sharma
  */
@@ -223,7 +225,21 @@ byte b;
         }
     }
      */
-
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter no. to check prime or not");
+    int n = sc.nextInt();
+    int count = 0;
+    for (int i = 1; i <=n; i++) {
+        if(n%i==0){
+            count = count+1;
+        }
+    }
+    if(count==2){
+        System.out.println("Number is prime");
+    }
+    else{
+        System.out.println("Number is not prime");
+    }
 
 }
 }
