@@ -251,6 +251,7 @@ byte b;
             count = count+1;
         }
     }*/
+        /*27. Program to check prime number for the specified number of testcases
         Scanner sc = new Scanner(System.in);
         int count = 0;
         System.out.println("enter number of testcases");
@@ -273,6 +274,6 @@ byte b;
                 System.out.println("No");
             }
             count=0;
-        }
+        }*/
     }
 }
