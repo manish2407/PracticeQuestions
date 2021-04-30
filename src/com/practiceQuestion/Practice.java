@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 
 class Practice {
-public static void  main(String []args){
+    public static void main(String[] args) {
     /* 1.Basic program
     System.out.println("Hello,welcome to the java world");
      */
@@ -119,13 +119,13 @@ byte b;
     val2 = val1 >>> 2;
     System.out.println("value after unsigned right shift is :"+ val2);
      */
-    //13. You can implement relational, assignment and logical operators from your own end.
+        //13. You can implement relational, assignment and logical operators from your own end.
     /* 14. implementation of ternary operator in java
     int a = 10,b=10;
     int c = a==b?5:3;
     System.out.println("value of c is : "+c);
      */
-    //15. you can implement selection statements like if, if-else-if, nested if by your own
+        //15. you can implement selection statements like if, if-else-if, nested if by your own
     /* 16. use of switch case selection statements -----
     *****we can use byte ,short,  int , char, string as expression and duplicate value should be in case.*****
     int a = 10;
@@ -241,6 +241,38 @@ byte b;
     else{
         System.out.println("Number is not prime");
     }*/
-
-}
+    /*26.To print next prime number the given number
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter no. to check prime or not");
+    int n = sc.nextInt();
+    int count = 0;
+    for (int i = n; ; i++) {
+        if(n%i==0){
+            count = count+1;
+        }
+    }*/
+        Scanner sc = new Scanner(System.in);
+        int count = 0;
+        System.out.println("enter number of testcases");
+        int n = sc.nextInt();
+        int[] ar = new int[n];
+        System.out.println("Enter values");
+        for (int i = 0; i < n; i++) {
+            int number = sc.nextInt();
+            ar[i] = number;
+        }
+        for (int j = 0; j <= ar.length - 1; j++) {
+            for (int k = 1; k <= ar[j]; k++) {
+                if (ar[j] % k == 0) {
+                    count = count + 1;
+                }
+            }
+            if (count == 2) {
+                System.out.println("Yes");
+            } else {
+                System.out.println("No");
+            }
+            count=0;
+        }
+    }
 }
